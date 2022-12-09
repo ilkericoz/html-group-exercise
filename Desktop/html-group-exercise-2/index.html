@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-    <body style="display: flex; flex-direction: row; justify-content: space-evenly;">
-    <section style="display: flex; width: 200px; border: 1px solid red; padding: 5px; flex-direction: column;"></section>
-</body>
+  </head>
+  <body
+    style="display: flex; flex-direction: row; justify-content: space-evenly"
+  >
+    <section
+      style="
+        display: flex;
+        width: 200px;
+        border: 1px solid red;
+        padding: 5px;
+        flex-direction: column;
+      "
+    ></section>
+    <!-- https://picsum.photos/200/300 -->
+
+    <section
+      style="
+        display: flex;
+        width: 200px;
+        border: 1px solid red;
+        padding: 5px;
+        flex-direction: column;
+      "
+    >
+      <img src="https://picsum.photos/200/200" alt="SOme pictures" />
+      <h2>Oguzhan Kandakoglu</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+        molestiae dolore ipsam, recusandae, sapiente eaque exercitationem
+        nostrum, esse possimus est maxime suscipit laboriosam enim pariatur
+        incidunt? Qui explicabo harum dolorem.
+      </p>
+      <b><i>M. Kemal Atatürk</i></b>
+      <blockquote>Peace at home, peace in the world!</blockquote>
+      <form action="">
+        <label for="member">Choose a group member:</label>
+        <select name="member" id="member">
+          <optgroup label="Members">
+            <option value="Oguzhan">Oguzhan</option>
+            <option value="Ilker">Ilker</option>
+            <option value="Hasan">Hasan</option>
+            <option value="Musa">Musa</option>
+            <option value="Emre">Emre</option>
+            <option value="Esra">Esra</option>
+          </optgroup>
+        </select>
+        <input type="text" name="text" id="text" placeholder="Some text..." />
+        <input type="submit" value="Submit" />
+        <div>
+          <div>
+            <label for="">Do you like quote?</label>
+          </div>
+          <div>
+            <input type="radio" name="radioA" id="radioA" />
+            <label for="radioA">Yes</label>
+          </div>
+          <div>
+            <input type="radio" name="radioB" id="radioB" />
+            <label for="radioB">No</label>
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
 </html>
